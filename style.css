@@ -1,0 +1,23 @@
+.sfondo
+{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sfondo img
+{
+    width: 1080px;
+    height: 1080px;
+    z-index: 0;
+}
+
+.casella
+{
+    position: relative;
+    width: 170px;
+    height: 170px;
+    background-color: black;
+    z-index: 2;
+}
